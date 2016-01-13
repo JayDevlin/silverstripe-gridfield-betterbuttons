@@ -1,3 +1,3 @@
 <?php
 
-define('BETTER_BUTTONS_DIR',basename(dirname(__FILE__)));
+define('BETTER_BUTTONS_DIR', substr(Director::makeRelative(dirname(__FILE__)), 1));
